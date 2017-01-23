@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/johnnatanmessias/Methods/OSMonitor/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/johnnatanmessias/Methods/OSMonitor/app/build/intermediates/pre-dexed/debug/classes-7a38220b5fb12781de9d2a0f22b5596e34373d12.jar" />
+    </item>
+    <item
+        jar="/Users/johnnatanmessias/Methods/OSMonitor/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/johnnatanmessias/Methods/OSMonitor/app/build/intermediates/pre-dexed/debug/classes-1ac1c048518515ae6e34cb8ca437c2cc96478660.jar" />
+    </item>
+    <item
+        jar="/Users/johnnatanmessias/Methods/OSMonitor/app/build/intermediates/exploded-aar/OSMonitor/volley/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="78919a682d1986a7c997dd697869ce524f8e47f5">
+        <dex dex="/Users/johnnatanmessias/Methods/OSMonitor/app/build/intermediates/pre-dexed/debug/classes-9f5de5191cdc424cdff647ea93ec46b76d466f94.jar" />
+    </item>
+    <item
+        jar="/Users/johnnatanmessias/Methods/OSMonitor/app/build/intermediates/exploded-aar/OSMonitor/colorpicker/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d1c31822ad340773b5a7137e4e5d1d72580c7f75">
+        <dex dex="/Users/johnnatanmessias/Methods/OSMonitor/app/build/intermediates/pre-dexed/debug/classes-75f20e47c6518d07ab8ea09121315dbcf96b4992.jar" />
+    </item>
+    <item
+        jar="/Users/johnnatanmessias/Methods/OSMonitor/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/johnnatanmessias/Methods/OSMonitor/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-49d7930178e028e5eeffb7cb33a7983ecffb6aa7.jar" />
+    </item>
+    <item
+        jar="/Users/johnnatanmessias/MacDevelopment/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/johnnatanmessias/Methods/OSMonitor/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-10e15d121a06f3ca3d878d6df17e913597ac36be.jar" />
+    </item>
+
+</items>

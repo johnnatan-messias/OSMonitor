@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/johnnatanmessias/Methods/OSMonitor/app/src/main/res/values-v14/styles.xml -->
+    <eat-comment/>
+    <style name="ActionBar.Solid.Osmonitor" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_solid_osmonitor</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_osmonitor</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_osmonitor</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Osmonitor</item>
+    </style>
+    <style name="ActionBar.Transparent.Osmonitor" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_osmonitor</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Osmonitor</item>
+    </style>
+    <!-- From: file:/Users/johnnatanmessias/Methods/OSMonitor/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-v14/values-v14.xml -->
+    <eat-comment/>
+    <style name="Base.TextAppearance.AppCompat.Button">
+        <item name="android:textSize">@dimen/abc_text_size_button_material</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="Platform.AppCompat" parent="Platform.V14.AppCompat"/>
+    <style name="Platform.AppCompat.Light" parent="Platform.V14.AppCompat.Light"/>
+    <style name="Platform.V14.AppCompat" parent="Platform.V11.AppCompat">
+        <item name="android:actionModeSelectAllDrawable">?actionModeSelectAllDrawable</item>
+
+        <item name="android:listPreferredItemPaddingLeft">@dimen/abc_list_item_padding_horizontal_material</item>
+        <item name="android:listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item>
+    </style>
+    <style name="Platform.V14.AppCompat.Light" parent="Platform.V11.AppCompat.Light">
+        <item name="android:actionModeSelectAllDrawable">?actionModeSelectAllDrawable</item>
+
+        <item name="android:listPreferredItemPaddingLeft">@dimen/abc_list_item_padding_horizontal_material</item>
+        <item name="android:listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent" parent="@android:style/TextAppearance.StatusBar.EventContent"/>
+    <style name="TextAppearance.StatusBar.EventContent.Info"/>
+    <style name="TextAppearance.StatusBar.EventContent.Line2">
+        <item name="android:textSize">@dimen/notification_subtext_size</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Time"/>
+    <style name="TextAppearance.StatusBar.EventContent.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>
+    <!-- From: file:/Users/johnnatanmessias/Methods/OSMonitor/app/src/main/res/values-v14/styles.xml -->
+    <eat-comment/>
+    <style name="Theme.Osmonitor" parent="@style/Theme.AppCompat">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_osmonitor</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Osmonitor</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Osmonitor</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Osmonitor</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Osmonitor</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Osmonitor</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_osmonitor</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_osmonitor</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Osmonitor</item>
+        
+        
+    </style>
+    <style name="Theme.Osmonitor.Widget" parent="@style/Theme.AppCompat">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Osmonitor</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Osmonitor</item>
+    </style>
+</resources>

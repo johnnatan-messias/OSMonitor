@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/johnnatanmessias/Methods/OSMonitor/app/src/main/res/values-zh-rCN/arrays.xml -->
+    <eat-comment/>
+    <string-array name="ui_message_dmesg_level">
+		<item>Debug</item>
+		<item>Information</item>
+		<item>Notice</item>
+		<item>Warning</item>
+		<item>Alert</item>
+		<item>Emergency</item>
+		<item>Error</item>
+		<item>Critical</item>
+	</string-array>
+    <string-array name="ui_message_logcat_level">
+		<item>Debug</item>
+		<item>Verbose</item>
+		<item>Information</item>
+		<item>Warning</item>
+		<item>Error</item>
+		<item>Fatal</item>
+    </string-array>
+    <string-array name="ui_message_menu_item">
+		<item>寻找程序</item>
+		<item>选取记录</item>
+	</string-array>
+    <string-array name="ui_message_type">
+        <item>Main</item>
+        <item>System</item>
+        <item>Events</item>
+        <item>Dmesg</item>
+    </string-array>
+    <string-array name="ui_misc_item">
+		<item>系统</item>
+		<item>电池</item>
+		<item>CPU</item>
+		<item>内存</item>
+		<item>Swap</item>
+		<item>网络</item>
+	<!-- 	<item>Disk</item>  -->
+	</string-array>
+    <string-array name="ui_preference_color_base">
+		<item>绿</item>
+		<item>蓝</item>
+	</string-array>
+    <string-array name="ui_preference_dmesg_format_entry">
+		<item>Raw</item>
+		<item>OS Monitor</item>
+	</string-array>
+    <string-array name="ui_preference_interval">
+		<item>快速</item>
+		<item>正常</item>
+		<item>较慢</item>
+	</string-array>
+    <string-array name="ui_preference_logcat_format_entry">
+		<item>Brief</item>
+		<item>Process</item>
+		<item>Tag</item>
+		<item>Thread</item>
+		<item>Thread Time</item>
+		<item>Time</item>
+		<item>Long</item>
+		<item>Raw</item>
+        <item>OS Monitor</item>		
+	</string-array>
+    <string-array name="ui_preference_notification_customize_entry">
+	    <item>内存 + 电池</item>
+        <item>内存 + 磁碟 IO</item> 
+   	    <item>电池 + 磁碟 IO</item>
+        <item>网路 IO</item>
+    </string-array>
+    <string-array name="ui_process_menu_item">
+		<item>结束程序</item>
+		<item>切换至程序</item>
+		<item>检视 Log</item>
+		<item>设定优先权</item>
+	</string-array>
+    <!-- From: file:/Users/johnnatanmessias/Methods/OSMonitor/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"转到主屏幕"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"转到上一层级"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多选项"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"选择应用"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查询"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"搜索查询"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"搜索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查询"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"语音搜索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"分享方式"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"通过%s分享"</string>
+    <!-- From: file:/Users/johnnatanmessias/Methods/OSMonitor/app/build/intermediates/exploded-aar/OSMonitor/colorpicker/unspecified/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
+    <string name="dialog_color_picker">选择颜色</string>
+    <string name="press_color_to_apply">选好后请按颜色</string>
+    <!-- From: file:/Users/johnnatanmessias/Methods/OSMonitor/app/src/main/res/values-zh-rCN/strings.xml -->
+    <eat-comment/>
+    <string name="ui_appname">OS Monitor</string>
+    <string name="ui_battery">电池</string>
+    <string name="ui_battery_acpower">交流电</string>
+    <string name="ui_battery_capacity">容量</string>
+    <string name="ui_battery_health">健康情况</string>
+    <string name="ui_battery_health_dead">损坏</string>
+    <string name="ui_battery_health_failure">未知错误</string>
+    <string name="ui_battery_health_good">良好</string>
+    <string name="ui_battery_health_overheat">过热</string>
+    <string name="ui_battery_health_overvoltage">电压过高</string>
+    <string name="ui_battery_health_unknown">未知</string>
+    <string name="ui_battery_offline">停用</string>
+    <string name="ui_battery_online">启用</string>
+    <string name="ui_battery_status">状态</string>
+    <string name="ui_battery_status_charging">充电中</string>
+    <string name="ui_battery_status_discharging">无法充电</string>
+    <string name="ui_battery_status_full">全满</string>
+    <string name="ui_battery_status_notcharging">未充电</string>
+    <string name="ui_battery_status_unknown">未知</string>
+    <string name="ui_battery_technology">种类</string>
+    <string name="ui_battery_temperature">温度</string>
+    <string name="ui_battery_usbpower">USB</string>
+    <string name="ui_battery_voltage">电压</string>
+    <string name="ui_connection_localremote">本地/远程 IP</string>
+    <string name="ui_connection_protocol">协定</string>
+    <string name="ui_connection_status">状态</string>
+    <string name="ui_connection_tab">联机</string>
+    <string name="ui_debug_tab">讯息</string>
+    <string name="ui_global_tab">全域</string>
+    <string name="ui_memory_buffered">缓冲</string>
+    <string name="ui_memory_cached">快取</string>
+    <string name="ui_memory_free">空闲</string>
+    <string name="ui_memory_shared">共享</string>
+    <string name="ui_memory_title">内存</string>
+    <string name="ui_memory_total">全部</string>
+    <string name="ui_menu_exit">结束</string>
+    <string name="ui_menu_help">帮助</string>
+    <string name="ui_menu_logexport">汇出</string>
+    <string name="ui_menu_search">搜寻</string>
+    <string name="ui_menu_setting">设定</string>
+    <string name="ui_menu_sort">排序</string>
+    <string name="ui_menu_stop">停止</string>
+    <string name="ui_menu_tools">工具</string>
+    <string name="ui_menu_type">种类</string>
+    <string name="ui_message_count">讯息:</string>
+    <string name="ui_misc_more">更多</string>
+    <string name="ui_misc_tab">杂项</string>
+    <string name="ui_network_interface">网卡</string>
+    <string name="ui_network_ip4">IPv4</string>
+    <string name="ui_network_ip6">IPv6</string>
+    <string name="ui_network_mac">MAC</string>
+    <string name="ui_network_rx">传送</string>
+    <string name="ui_network_status">状态</string>
+    <string name="ui_network_status_broadcast">broadcast</string>
+    <string name="ui_network_status_down">down</string>
+    <string name="ui_network_status_loopback">loopback</string>
+    <string name="ui_network_status_multicast">multicast</string>
+    <string name="ui_network_status_p2p">point-to-point</string>
+    <string name="ui_network_status_promisc">promisc</string>
+    <string name="ui_network_status_running">running</string>
+    <string name="ui_network_status_up">up</string>
+    <string name="ui_network_tab">网络</string>
+    <string name="ui_network_tx">接收</string>
+    <string name="ui_notification_tab">通知</string>
+    <string name="ui_preferences_autostart">自动启动</string>
+    <string name="ui_preferences_autostart_detail">跟着系统一起启动</string>
+    <string name="ui_preferences_color">CPU 图示颜色</string>
+    <string name="ui_preferences_color_detail">蓝或绿</string>
+    <string name="ui_preferences_cpuusage">显示 CPU 使用率</string>
+    <string name="ui_preferences_cpuusage_detail">在通知区显示 CPU 使用率图标</string>
+    <string name="ui_preferences_dmesg_format">Dmesg 格式</string>
+    <string name="ui_preferences_dmesg_format_detail">选择显示 dmesg 格式.</string>
+    <string name="ui_preferences_dmesg_message_color">Dmesg 讯息格式</string>
+    <string name="ui_preferences_expert">专家模式</string>
+    <string name="ui_preferences_expert_detail">不进行数据整理, 显示原始数据</string>
+    <string name="ui_preferences_logcat_format">Logcat 格式</string>
+    <string name="ui_preferences_logcat_format_detail">选择显示 Logcat 格式.</string>
+    <string name="ui_preferences_logcat_message_color">Logcat 讯息格式</string>
+    <string name="ui_preferences_map">地图种类</string>
+    <string name="ui_preferences_map_detail">GoogleMap 或  OpenStreeMap</string>
+    <string name="ui_preferences_message_alert_color">Alert </string>
+    <string name="ui_preferences_message_color_detail">显示讯息的颜色.</string>
+    <string name="ui_preferences_message_critical_color">Critical </string>
+    <string name="ui_preferences_message_debug_color">Debug</string>
+    <string name="ui_preferences_message_emergency_color">Emergency </string>
+    <string name="ui_preferences_message_error_color">Error</string>
+    <string name="ui_preferences_message_fatal_color">Fatal</string>
+    <string name="ui_preferences_message_info_color">Information</string>
+    <string name="ui_preferences_message_notice_color">Notice</string>
+    <string name="ui_preferences_message_verbose_color">Verbose </string>
+    <string name="ui_preferences_message_warning_color">Warning</string>
+    <string name="ui_preferences_notificaiton_color"> 通知区显示颜色</string>
+    <string name="ui_preferences_notificaiton_color_detail">按下后可重新选择</string>
+    <string name="ui_preferences_notificaiton_top">把讯息放在最上面</string>
+    <string name="ui_preferences_notificaiton_top_detail">提高讯息优先权(Android 4.1.2 后)</string>
+    <string name="ui_preferences_notification">捷径图示</string>
+    <string name="ui_preferences_notification_customize">客制化通知区资讯</string>
+    <string name="ui_preferences_notification_customize_detail">选择通知区讯息种类</string>
+    <string name="ui_preferences_notification_deatil">在通知区显示捷径</string>
+    <string name="ui_preferences_root">启用 root 权限</string>
+    <string name="ui_preferences_root_detail">使用 root 权限执行指令和收集数据</string>
+    <string name="ui_preferences_setcpu">开机时设定CPU</string>
+    <string name="ui_preferences_setcpu_data">设定频率及调节政策</string>
+    <string name="ui_preferences_setcpu_detail">开机时载入CPU 设定</string>
+    <string name="ui_preferences_tempvalue">使用 华氏</string>
+    <string name="ui_preferences_tempvalue_detail">切换 华氏/摄氏 显示</string>
+    <string name="ui_preferences_update">刷新速度</string>
+    <string name="ui_preferences_update_detail">刷新 UI 数据的速度</string>
+    <string name="ui_process_count">进程:</string>
+    <string name="ui_process_cpuusage">CPU 使用率:</string>
+    <string name="ui_process_detail_cputime">CPU时间</string>
+    <string name="ui_process_detail_memory">内存</string>
+    <string name="ui_process_detail_nice">优先权</string>
+    <string name="ui_process_detail_ppid">父 PID</string>
+    <string name="ui_process_detail_process">程序</string>
+    <string name="ui_process_detail_status">状态</string>
+    <string name="ui_process_detail_stime">系统时间</string>
+    <string name="ui_process_detail_thread">线程</string>
+    <string name="ui_process_detail_time">启动</string>
+    <string name="ui_process_detail_user">用户</string>
+    <string name="ui_process_detail_utime">用户时间</string>
+    <string name="ui_process_memoryfree">剩余:</string>
+    <string name="ui_process_memorytotal">内存 全部:</string>
+    <string name="ui_process_sort_cputime">CPU时间</string>
+    <string name="ui_process_sort_memory">内存</string>
+    <string name="ui_process_sort_name">名字</string>
+    <string name="ui_process_sort_pid">PID</string>
+    <string name="ui_process_sort_status">状态</string>
+    <string name="ui_process_sort_usage">使用率</string>
+    <string name="ui_process_status_running">Running</string>
+    <string name="ui_process_status_sleep">Sleep</string>
+    <string name="ui_process_status_stop">Stop</string>
+    <string name="ui_process_status_unknown">Unknown</string>
+    <string name="ui_process_status_waitio">Wait IO</string>
+    <string name="ui_process_status_zombie">Zombie</string>
+    <string name="ui_process_tab">进程</string>
+    <string name="ui_processor_core">核心</string>
+    <string name="ui_processor_cur">当前</string>
+    <string name="ui_processor_enable">启用</string>
+    <string name="ui_processor_enable_msg">收集资讯中..</string>
+    <string name="ui_processor_enable_title">启用全部CPUs</string>
+    <string name="ui_processor_freq">频率</string>
+    <string name="ui_processor_freq_max_title">最大频率</string>
+    <string name="ui_processor_freq_min_title">最小频率</string>
+    <string name="ui_processor_gov">调节政策</string>
+    <string name="ui_processor_scal">范围</string>
+    <string name="ui_processor_status">状态</string>
+    <string name="ui_processor_status_offline">离线</string>
+    <string name="ui_processor_status_online">在线</string>
+    <string name="ui_shortcut_detail">按下启动OS Monitor</string>
+    <string name="ui_swap_title">Swap</string>
+    <string name="ui_system_uptime">启动时间</string>
+    <string name="ui_text_cancel">取消</string>
+    <string name="ui_text_default">默认</string>
+    <string name="ui_text_exportdone">完成!</string>
+    <string name="ui_text_fileexist">档案己存在!</string>
+    <string name="ui_text_filename">档案</string>
+    <string name="ui_text_kill">结束  %1$d 进程..</string>
+    <string name="ui_text_notfound">无法找到!</string>
+    <string name="ui_text_okay">确定</string>
+    <string name="ui_text_refresh">请稍等..</string>
+    <string name="ui_text_zero">0</string>
+</resources>

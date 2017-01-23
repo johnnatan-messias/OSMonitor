@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="ui_message_type">
+    <item>ראשי</item>
+    <item>מערכת</item>
+    <item>אירועים</item>
+    <item>Dmesg</item>
+  </string-array>
+  
+  <string-array name="ui_message_dmesg_level">
+    <item>איתור באגים</item>
+    <item>מידע</item>
+    <item>שים לב</item>
+    <item>אזהרה</item>
+    <item>התראה</item>
+    <item>חירום</item>
+    <item>שגיאה</item>
+    <item>קריטי</item>
+  </string-array>
+  
+  <string-array name="ui_message_logcat_level">
+    <item>איתור באגים</item>
+    <item>מפורט</item>
+    <item>מידע</item>
+    <item>אזהרה</item>
+    <item>שגיאה</item>
+    <item>קריטי</item>
+  </string-array>
+  
+  <string-array name="ui_misc_item">
+    <item>מערכת</item>
+    <item>סוללה</item>
+    <item>CPU</item>
+    <item>זיכרון</item>
+    <item>Swap</item>
+    <item>רשת</item>
+  </string-array>
+  
+  <string-array name="ui_process_menu_item">
+    <item>לעצור/להתחיל מחדש תהליך</item>
+    <item>עבור לתהליך</item>
+    <item>צפה בלוג</item>
+    <item>הגדר עדיפות</item>
+  </string-array>
+ 
+  <string-array name="ui_message_menu_item">
+	<item>מצא את התהליך</item>
+	<item>בחר רשומת יומן</item>
+  </string-array>  
+  
+  <string-array name="ui_preference_interval">
+    <item>מהיר</item>
+    <item>רגיל</item>
+    <item>איטי</item>
+  </string-array>
+  
+  <string-array name="ui_preference_color_base">
+    <item>ירוק</item>
+    <item>כחול</item>
+  </string-array>
+  
+  <string-array name="ui_preference_logcat_format_entry">
+    <item>Brief</item>
+	<item>Process</item>		
+	<item>Tag</item>
+	<item>Thread</item>
+	<item>Thread Time</item>
+	<item>Time</item>
+	<item>Long</item>
+	<item>Raw</item>
+	<item>OS Monitor</item>		
+  </string-array>
+	
+  <string-array name="ui_preference_dmesg_format_entry">
+	<item>Raw</item>
+	<item>OS Monitor</item>
+  </string-array>
+  
+  <string-array name="ui_preference_notification_customize_entry">
+	<item>Memory + Battery</item>
+    <item>Memory + DiskIO</item>
+	<item>Battery + DiskIO</item>
+    <item>Network IO</item>
+  </string-array>
+  	
+</resources>

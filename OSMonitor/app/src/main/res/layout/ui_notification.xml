@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_notification"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ProgressBar
+            android:id="@+id/notification_cpu_bar"
+            style="@style/osmonitor_CPUProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:max="100"
+            android:minHeight="10dp"
+            android:minWidth="15dp" />
+
+        <ProgressBar
+            android:id="@+id/notification_1nd_bar"
+            style="@style/osmonitor_1ndBar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:max="100"
+            android:minHeight="10dp"
+            android:minWidth="15dp" />
+
+        <ProgressBar
+            android:id="@+id/notification_2nd_bar"
+            style="@style/osmonitor_2ndBar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:max="100"
+            android:minHeight="10dp"
+            android:minWidth="15dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/notification_head"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingRight="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/notification_bar" />
+
+    <LinearLayout
+        android:id="@+id/notifiction_sys"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/notification_cpu"
+            style="@style/osmonitor_NotificationText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:singleLine="true"
+            android:text="CPU: ??%" 
+            android:textColor="@color/ltgrey_osmonitor" />
+
+        <TextView
+            android:id="@+id/notification_1nd"
+            style="@style/osmonitor_NotificationText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:singleLine="true" 
+            android:textColor="@color/ltgrey_osmonitor" />
+
+        <TextView
+            android:id="@+id/notification_2nd"
+            style="@style/osmonitor_NotificationText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:singleLine="true" 
+            android:textColor="@color/ltgrey_osmonitor" />
+        
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/notification_div"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/notification_bar" />
+
+    <LinearLayout
+        android:id="@+id/notifiction_proc"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/notification_top1st"
+            style="@style/osmonitor_NotificationText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:singleLine="true" 
+            android:textColor="@color/ltgrey_osmonitor" />
+
+        <TextView
+            android:id="@+id/notification_top2nd"
+            style="@style/osmonitor_NotificationText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:singleLine="true" 
+            android:textColor="@color/ltgrey_osmonitor" />
+
+        <TextView
+            android:id="@+id/notification_top3nd"
+            style="@style/osmonitor_NotificationText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:singleLine="true" 
+            android:textColor="@color/ltgrey_osmonitor" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">选择颜色</string>
+    <string name="press_color_to_apply">选好后请按颜色</string>    
+</resources>

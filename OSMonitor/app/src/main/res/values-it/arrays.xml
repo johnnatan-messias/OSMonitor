@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ui_message_type">
+        <item>Principale</item>
+        <item>Sistema</item>
+        <item>Eventi</item>
+        <item>Dmesg</item>
+    </string-array>
+    
+    <string-array name="ui_message_dmesg_level">
+		<item>Debug</item>
+		<item>Informazione</item>
+		<item>Notifica</item>
+		<item>Attenzione</item>
+		<item>Allerta</item>
+		<item>Emergenza</item>
+		<item>Errore</item>
+		<item>Critico</item>
+	</string-array>
+
+	<string-array name="ui_message_logcat_level">
+		<item>Debug</item>
+		<item>Verbose</item>
+		<item>Informazione</item>
+		<item>Attenzione</item>
+		<item>Errore</item>
+		<item>Fatale</item>
+    </string-array>
+    
+	<string-array name="ui_misc_item">
+		<item>Sistema</item>
+		<item>Batteria</item>
+		<item>CPU</item>
+		<item>Memoria</item>
+		<item>Swap</item>
+		<item>Rete</item>
+	<!-- 	<item>Disk</item>  -->
+	</string-array>
+	
+	<string-array name="ui_process_menu_item">
+		<item>Uccidi/Reimposta processo</item>
+		<item>Passa al processo</item>
+		<item>Vedi Log</item>
+		<item>Imposta Priorità</item>
+	</string-array>
+	
+	<string-array name="ui_message_menu_item">
+		<item>Trova Process </item>
+		<item>Selezionare Log Entry</item>
+	</string-array>
+	
+	<string-array name="ui_preference_interval">
+		<item>Veloce</item>
+		<item>Normale</item>
+		<item>Lento</item>
+	</string-array>
+	
+	<string-array name="ui_preference_map_value">
+	    <item>GoogleMap</item>
+	    <item>OpenStreeMap</item>
+	</string-array>
+	
+	<string-array name="ui_preference_color_base">
+		<item>Verde</item>
+		<item>Blu</item>
+	</string-array>
+
+	<string-array name="ui_preference_logcat_format_entry">
+		<item>Brief</item>
+		<item>Process</item>
+		<item>Tag</item>
+		<item>Thread</item>
+		<item>Thread Time</item>
+		<item>Time</item>
+		<item>Long</item>
+		<item>Raw</item>
+        <item>OS Monitor</item>		
+	</string-array>
+
+	<string-array name="ui_preference_dmesg_format_entry">
+		<item>Raw</item>
+		<item>OS Monitor</item>
+	</string-array>
+    
+    <string-array name="ui_preference_notification_customize_entry">
+	  <item>Memoria + Batteria</item>
+      <item>Memoria + Disco IO</item>
+  	  <item>Batteria + Disco IO</item>
+      <item>Rete IO</item>
+    </string-array>
+		
+</resources>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/ui_global_tab" >
+        <ListPreference
+            android:defaultValue="2"
+            android:dialogTitle="@string/ui_preferences_update"
+            android:entries="@array/ui_preference_interval"
+            android:entryValues="@array/ui_preference_interval_value"
+            android:key="id_preference_interval"
+            android:summary="@string/ui_preferences_update_detail"
+            android:title="@string/ui_preferences_update" 
+            android:persistent="false"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:persistent="false"
+            android:key="id_preference_root"
+            android:summary="@string/ui_preferences_root_detail"
+            android:title="@string/ui_preferences_root" />
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/ui_process_tab" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:persistent="false"
+            android:key="id_preference_expertmode"
+            android:summary="@string/ui_preferences_expert_detail"
+            android:title="@string/ui_preferences_expert" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/ui_notification_tab" >
+        <CheckBoxPreference
+            android:key="id_preference_shortcut"
+            android:persistent="false"
+            android:summary="@string/ui_preferences_notification_deatil"
+            android:title="@string/ui_preferences_notification" />
+        
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:persistent="false"
+            android:key="id_preference_cpuusage"
+            android:summary="@string/ui_preferences_cpuusage_detail"
+            android:title="@string/ui_preferences_cpuusage" />
+
+        <ListPreference
+            android:persistent="false"
+            android:dependency="id_preference_cpuusage"
+            android:entries="@array/ui_preference_color_base"
+            android:entryValues="@array/ui_preference_color_value"
+            android:key="id_preference_color"
+            android:summary="@string/ui_preferences_color_detail"
+            android:title="@string/ui_preferences_color" />
+        
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            android:defaultValue="0xFFCCCCCC"
+            android:persistent="false"
+            android:dependency="id_preference_cpuusage"            
+            android:key="id_preference_notification_fontcolor"
+            android:summary="@string/ui_preferences_notificaiton_color_detail"
+            android:title="@string/ui_preferences_notificaiton_color" />
+
+         <CheckBoxPreference
+            android:defaultValue="false"
+            android:persistent="false"
+            android:dependency="id_preference_cpuusage"
+            android:key="id_preference_notification_top"
+            android:summary="@string/ui_preferences_notificaiton_top_detail"
+            android:title="@string/ui_preferences_notificaiton_top" />
+        
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:persistent="false"
+            android:dependency="id_preference_cpuusage"
+            android:key="id_preference_tempvalue"
+            android:summary="@string/ui_preferences_tempvalue_detail"
+            android:title="@string/ui_preferences_tempvalue" />
+        
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:persistent="false"
+            android:key="id_preference_autostart"
+            android:summary="@string/ui_preferences_autostart_detail"
+            android:title="@string/ui_preferences_autostart" />
+        
+        <ListPreference
+            android:persistent="false"
+            android:entryValues="@array/ui_preference_notification_customize_value" 
+            android:entries="@array/ui_preference_notification_customize_entry"
+            android:key="id_preference_notification_customize"
+            android:title="@string/ui_preferences_notification_customize" 
+            android:summary="@string/ui_preferences_notification_customize_detail"/>
+                
+</PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/ui_connection_tab" >
+        <ListPreference
+            android:persistent="false"
+            android:entries="@array/ui_preference_map_value"
+            android:entryValues="@array/ui_preference_map_value"
+            android:key="id_preference_map"
+            android:summary="@string/ui_preferences_map_detail"
+            android:title="@string/ui_preferences_map" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/ui_misc_tab" >
+        <CheckBoxPreference
+            android:persistent="false"
+            android:dependency="id_preference_root"
+            android:key="id_preference_setcpu"
+            android:summary="@string/ui_preferences_setcpu_detail"
+            android:title="@string/ui_preferences_setcpu" />
+
+        <com.eolwral.osmonitor.preference.ProcessorPreference
+            android:persistent="false"
+            android:dependency="id_preference_setcpu"
+            android:key="id_preference_setcpu_data"
+            android:title="@string/ui_preferences_setcpu_data" />
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/ui_debug_tab" >
+        <ListPreference
+            android:persistent="false"
+            android:entries="@array/ui_preference_logcat_format_entry"
+            android:entryValues="@array/ui_preference_logcat_format_value"
+            android:key="id_preference_logcat_format"
+            android:summary="@string/ui_preferences_logcat_format_detail"
+            android:title="@string/ui_preferences_logcat_format" />
+        
+        <PreferenceScreen 
+            android:summary="@string/ui_preferences_message_color_detail" 
+            android:title="@string/ui_preferences_logcat_message_color">
+            
+             <net.margaritov.preference.colorpicker.ColorPickerPreference
+                 android:defaultValue="0xff888888"
+                 android:persistent="false"
+                 android:key="id_preference_logcat_verbose_color"
+                 android:title="@string/ui_preferences_message_verbose_color" />
+             
+             <net.margaritov.preference.colorpicker.ColorPickerPreference
+                 android:defaultValue="0xff3399ff"
+                 android:persistent="false"
+                 android:key="id_preference_logcat_debug_color"
+                 android:title="@string/ui_preferences_message_debug_color" />
+
+             <net.margaritov.preference.colorpicker.ColorPickerPreference
+                 android:defaultValue="0xff00ff00"
+                 android:persistent="false"
+                 android:key="id_preference_logcat_info_color"
+                 android:title="@string/ui_preferences_message_info_color" />
+             
+             <net.margaritov.preference.colorpicker.ColorPickerPreference
+                 android:defaultValue="0xffff00ff"
+                 android:persistent="false"
+                 android:key="id_preference_logcat_warning_color"
+                 android:title="@string/ui_preferences_message_warning_color" />
+
+             <net.margaritov.preference.colorpicker.ColorPickerPreference
+                 android:defaultValue="0xffff0000"
+                 android:persistent="false"
+                 android:key="id_preference_logcat_error_color"
+                 android:title="@string/ui_preferences_message_error_color" />
+             
+             <net.margaritov.preference.colorpicker.ColorPickerPreference
+                 android:defaultValue="0xffff0000"
+                 android:persistent="false"
+                 android:key="id_preference_logcat_fatal_color"
+                 android:title="@string/ui_preferences_message_fatal_color" />
+             
+        </PreferenceScreen>
+        
+        <ListPreference
+            android:persistent="false"
+            android:entries="@array/ui_preference_dmesg_format_entry"
+            android:entryValues="@array/ui_preference_dmesg_format_value"
+            android:key="id_preference_dmesg_format"
+            android:summary="@string/ui_preferences_dmesg_format_detail"
+            android:title="@string/ui_preferences_dmesg_format" />
+        
+        <PreferenceScreen 
+            android:summary="@string/ui_preferences_message_color_detail" 
+            android:title="@string/ui_preferences_dmesg_message_color">
+            
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                 android:defaultValue="0xffff0000"
+                 android:persistent="false"
+                 android:key="id_preference_dmesg_emergency_color"
+                 android:title="@string/ui_preferences_message_emergency_color" />
+            
+             <net.margaritov.preference.colorpicker.ColorPickerPreference
+                 android:defaultValue="0xffcccc00"
+                 android:persistent="false"
+                 android:key="id_preference_dmesg_alert_color"
+                 android:title="@string/ui_preferences_message_alert_color" />
+            
+             <net.margaritov.preference.colorpicker.ColorPickerPreference
+                 android:defaultValue="0xff66ff99"
+                 android:persistent="false"
+                 android:key="id_preference_dmesg_critical_color"
+                 android:title="@string/ui_preferences_message_critical_color" />
+             
+             <net.margaritov.preference.colorpicker.ColorPickerPreference
+                 android:defaultValue="0xff33cc33"
+                 android:persistent="false"
+                 android:key="id_preference_dmesg_error_color"
+                 android:title="@string/ui_preferences_message_error_color" />
+
+             <net.margaritov.preference.colorpicker.ColorPickerPreference
+                 android:defaultValue="0xff339933"
+                 android:persistent="false"
+                 android:key="id_preference_dmesg_warning_color"
+                 android:title="@string/ui_preferences_message_warning_color" />
+             
+             <net.margaritov.preference.colorpicker.ColorPickerPreference
+                 android:defaultValue="0xff3399ff"
+                 android:persistent="false"
+                 android:key="id_preference_dmesg_notice_color"
+                 android:title="@string/ui_preferences_message_notice_color" />
+
+             <net.margaritov.preference.colorpicker.ColorPickerPreference
+                 android:defaultValue="0xff0000ff"
+                 android:persistent="false"
+                 android:key="id_preference_dmesg_info_color"
+                 android:title="@string/ui_preferences_message_info_color" />
+             
+             <net.margaritov.preference.colorpicker.ColorPickerPreference
+                 android:defaultValue="0xff9933ff"
+                 android:persistent="false"
+                 android:key="id_preference_dmesg_debug_color"
+                 android:title="@string/ui_preferences_message_debug_color" />
+             
+        </PreferenceScreen>
+        		            
+    </PreferenceCategory>
+
+</PreferenceScreen>

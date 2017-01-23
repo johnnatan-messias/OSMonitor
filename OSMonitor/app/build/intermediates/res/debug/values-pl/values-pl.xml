@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/johnnatanmessias/Methods/OSMonitor/app/src/main/res/values-pl/arrays.xml -->
+    <eat-comment/>
+    <string-array name="ui_message_dmesg_level">
+		<item>Diagnostyczne (Debug)</item>
+		<item>Informacje (Information)</item>
+		<item>Uwagi (Notice)</item>
+		<item>Ostrzeżenia (Warning)</item>
+		<item>Alarmy (Alert)</item>
+		<item>Awaryjne (Emergency)</item>
+		<item>Błędy (Error)</item>
+		<item>Krytyczne (Critical)</item>
+	</string-array>
+    <string-array name="ui_message_logcat_level">
+		<item>Diagnostyczne (Debug)</item>
+		<item>Szczegółowe (Verbose)</item>
+		<item>Informacje (Information)</item>
+		<item>Ostrzeżenia (Warning)</item>
+		<item>Błędy (Error)</item>
+		<item>Krytyczne (Fatal)</item>
+    </string-array>
+    <string-array name="ui_message_menu_item">
+		<item>Znajdź procesu</item>
+		<item>Wybierz Wpis</item>
+	</string-array>
+    <string-array name="ui_message_type">
+        <item>Główne</item>
+        <item>System</item>
+        <item>Zdarzenia</item>
+        <item>Dmesg</item>
+    </string-array>
+    <string-array name="ui_misc_item">
+		<item>System</item>
+		<item>Bateria</item>
+		<item>CPU</item>
+		<item>Pamięć</item>
+		<item>Swap</item>
+		<item>Sieć</item>
+	<!-- 	<item>Dysk</item>  -->
+	</string-array>
+    <string-array name="ui_preference_color_base">
+		<item>Zielony</item>
+		<item>Niebieski</item>
+	</string-array>
+    <string-array name="ui_preference_dmesg_format_entry">
+		<item>Raw</item>
+		<item>OS Monitor</item>
+	</string-array>
+    <string-array name="ui_preference_interval">
+		<item>Często</item>
+		<item>Normalnie</item>
+		<item>Rzadko</item>
+	</string-array>
+    <string-array name="ui_preference_logcat_format_entry">
+		<item>Brief</item>
+		<item>Process</item>
+		<item>Tag</item>
+		<item>Thread</item>
+		<item>Thread Time</item>
+		<item>Time</item>
+		<item>Long</item>
+		<item>Raw</item>
+        <item>OS Monitor</item>		
+	</string-array>
+    <string-array name="ui_preference_map_value">
+	    <item>GoogleMap</item>
+	    <item>OpenStreeMap</item>
+	</string-array>
+    <string-array name="ui_preference_notification_customize_entry">
+	    <item>Pamięć + Bateria</item>
+        <item>Pamięć + Dysk IO</item>
+	    <item>Bateria + Dysk IO</item>
+        <item>Sieć IO</item>
+    </string-array>
+    <string-array name="ui_process_menu_item">
+		<item>Ubicie/Reset Procesu</item>
+		<item>Przełącz do procesu</item>
+		<item>Obejrzyj LOG</item>
+		<item>Ustal priorytet</item>
+	</string-array>
+    <!-- From: file:/Users/johnnatanmessias/Methods/OSMonitor/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-pl/values-pl.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Przejdź do strony głównej"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Przejdź wyżej"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Więcej opcji"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Gotowe"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Zobacz wszystkie"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Wybierz aplikację"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Wyczyść zapytanie"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Wyszukiwane hasło"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Szukaj"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Wyślij zapytanie"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Wyszukiwanie głosowe"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Udostępnij dla"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Udostępnij dla %s"</string>
+    <!-- From: file:/Users/johnnatanmessias/Methods/OSMonitor/app/src/main/res/values-pl/strings.xml -->
+    <eat-comment/>
+    <string name="ui_appname">OS Monitor</string>
+    <string name="ui_battery">Bateria</string>
+    <string name="ui_battery_acpower">Zasilanie AC</string>
+    <string name="ui_battery_capacity">Pojemność</string>
+    <string name="ui_battery_health">Jakość</string>
+    <string name="ui_battery_health_dead">Zepsuta</string>
+    <string name="ui_battery_health_failure">Nieokreślony błąd </string>
+    <string name="ui_battery_health_good">Dobra</string>
+    <string name="ui_battery_health_overheat">Przegrzana</string>
+    <string name="ui_battery_health_overvoltage">Przewoltowana</string>
+    <string name="ui_battery_health_unknown">Nieznane</string>
+    <string name="ui_battery_offline">OffLine</string>
+    <string name="ui_battery_online">OnLine</string>
+    <string name="ui_battery_status">Status</string>
+    <string name="ui_battery_status_charging">Ładowanie</string>
+    <string name="ui_battery_status_discharging">Rozładowywanie</string>
+    <string name="ui_battery_status_full">Pełna</string>
+    <string name="ui_battery_status_notcharging">Nie ładowana</string>
+    <string name="ui_battery_status_unknown">Nieznany</string>
+    <string name="ui_battery_technology">Technologia</string>
+    <string name="ui_battery_temperature">Temperatura</string>
+    <string name="ui_battery_usbpower">Zasilanie USB</string>
+    <string name="ui_battery_voltage">Napięcie</string>
+    <string name="ui_connection_localremote">Lokal./Zdalny IP</string>
+    <string name="ui_connection_protocol">Prot.</string>
+    <string name="ui_connection_status">Status</string>
+    <string name="ui_connection_tab">Połączenia</string>
+    <string name="ui_debug_tab">Komunikaty</string>
+    <string name="ui_global_tab">Ogólne</string>
+    <string name="ui_memory_buffered">Buforowana</string>
+    <string name="ui_memory_cached">Podręczna</string>
+    <string name="ui_memory_free">Wolna</string>
+    <string name="ui_memory_shared">Dzielona</string>
+    <string name="ui_memory_title">Pamięć</string>
+    <string name="ui_memory_total">Całkowita</string>
+    <string name="ui_menu_exit">Wyjście</string>
+    <string name="ui_menu_help">Pomoc</string>
+    <string name="ui_menu_logexport">Eksport</string>
+    <string name="ui_menu_search">Szukanie</string>
+    <string name="ui_menu_setting">Ustawienia</string>
+    <string name="ui_menu_sort">Sortowanie</string>
+    <string name="ui_menu_stop">Stop</string>
+    <string name="ui_menu_tools">Narzędzia</string>
+    <string name="ui_menu_type">Typ</string>
+    <string name="ui_message_count">Wiadomości:</string>
+    <string name="ui_misc_more">Więcej</string>
+    <string name="ui_misc_tab">Pozostałe</string>
+    <string name="ui_network_interface">Interfejs</string>
+    <string name="ui_network_ip4">IPv4</string>
+    <string name="ui_network_ip6">IPv6</string>
+    <string name="ui_network_mac">MAC</string>
+    <string name="ui_network_rx">Rx</string>
+    <string name="ui_network_status">Status</string>
+    <string name="ui_network_status_broadcast">broadcast</string>
+    <string name="ui_network_status_down">down</string>
+    <string name="ui_network_status_loopback">loopback</string>
+    <string name="ui_network_status_multicast">multicast</string>
+    <string name="ui_network_status_p2p">point-to-point</string>
+    <string name="ui_network_status_promisc">promisc</string>
+    <string name="ui_network_status_running">running</string>
+    <string name="ui_network_status_up">up</string>
+    <string name="ui_network_tab">Sieć</string>
+    <string name="ui_network_tx">Tx</string>
+    <string name="ui_notification_tab">Powiadomienie</string>
+    <string name="ui_preferences_autostart">Autostart</string>
+    <string name="ui_preferences_autostart_detail">Włącz miernik CPU na starcie</string>
+    <string name="ui_preferences_color">Kolor miernika CPU</string>
+    <string name="ui_preferences_color_detail">Niebieski lub zielony</string>
+    <string name="ui_preferences_cpuusage">Pokaż zużycie CPU</string>
+    <string name="ui_preferences_cpuusage_detail">Pokaż animowaną ikonę miernika CPU w powiadomieniach</string>
+    <string name="ui_preferences_dmesg_format">Dmesg Format</string>
+    <string name="ui_preferences_dmesg_format_detail">Format używany podczas wyświetlania wpisów dziennika </string>
+    <string name="ui_preferences_dmesg_message_color">Dmesg Wiadomość Kolor </string>
+    <string name="ui_preferences_expert">Tryb eksperta</string>
+    <string name="ui_preferences_expert_detail">Pokaż procesy macierzyste Linuxa</string>
+    <string name="ui_preferences_logcat_format">Logcat Format</string>
+    <string name="ui_preferences_logcat_format_detail">Format używany podczas wyświetlania wpisów dziennika </string>
+    <string name="ui_preferences_logcat_message_color">Logcat Wiadomość Kolor </string>
+    <string name="ui_preferences_map">Typ mapy</string>
+    <string name="ui_preferences_map_detail">Wybierz GoogleMap lub OpenStreeMap</string>
+    <string name="ui_preferences_message_alert_color">Alarmy (Alert) </string>
+    <string name="ui_preferences_message_color_detail">Wiadomość kolor używany podczas wyświetlania wpisów dziennika </string>
+    <string name="ui_preferences_message_critical_color">Krytyczne (Critical) </string>
+    <string name="ui_preferences_message_debug_color">Diagnostyczne (Debug)</string>
+    <string name="ui_preferences_message_emergency_color">Awaryjne (Emergency) </string>
+    <string name="ui_preferences_message_error_color">Błędy (Error)</string>
+    <string name="ui_preferences_message_fatal_color">Krytyczne (Fatal)</string>
+    <string name="ui_preferences_message_info_color">Informacje (Information)</string>
+    <string name="ui_preferences_message_notice_color">Uwagi (Notice)</string>
+    <string name="ui_preferences_message_verbose_color">Szczegółowe (Verbose) </string>
+    <string name="ui_preferences_message_warning_color">Ostrzeżenia (Warning)</string>
+    <string name="ui_preferences_notificaiton_color">Kolor czcionki powiadomień</string>
+    <string name="ui_preferences_notificaiton_color_detail">Kliknij i wybierz</string>
+    <string name="ui_preferences_notificaiton_top">Trzymaj powiadomienia w pamięci</string>
+    <string name="ui_preferences_notificaiton_top_detail">Zwiększ priorytet powiadomienia (Android 4.1.2 i wyżej)</string>
+    <string name="ui_preferences_notification">Dodaj skrót</string>
+    <string name="ui_preferences_notification_customize">Dostosuj powiadomienia</string>
+    <string name="ui_preferences_notification_customize_detail">wybrać informacje wyświetlane na widżecie powiadomień</string>
+    <string name="ui_preferences_notification_deatil">Pokaż ikonę skrótu w powiadomieniach</string>
+    <string name="ui_preferences_root">Włącz przywileje roota</string>
+    <string name="ui_preferences_root_detail">Przyznanie uprawnień roota, aby wykonać polecenia uprzywilejowane</string>
+    <string name="ui_preferences_setcpu">Ustaw CPU na starcie</string>
+    <string name="ui_preferences_setcpu_data">Ustaw częstotl. i governor</string>
+    <string name="ui_preferences_setcpu_detail">Ustawienia procesora na starcie</string>
+    <string name="ui_preferences_tempvalue">Stopnie Celsjusza</string>
+    <string name="ui_preferences_tempvalue_detail">Przełączanie stopni Celsjusza/Fahrenheita</string>
+    <string name="ui_preferences_update">Interwał zmian</string>
+    <string name="ui_preferences_update_detail">Jak często aktualizować zmianę danych</string>
+    <string name="ui_process_count">Procesów:</string>
+    <string name="ui_process_cpuusage">Zużycie CPU:</string>
+    <string name="ui_process_detail_cputime">Czas CPU</string>
+    <string name="ui_process_detail_memory">Pamięć</string>
+    <string name="ui_process_detail_nice">Priorytet</string>
+    <string name="ui_process_detail_ppid">PPID</string>
+    <string name="ui_process_detail_process">Proces</string>
+    <string name="ui_process_detail_status">Status</string>
+    <string name="ui_process_detail_stime">STime</string>
+    <string name="ui_process_detail_thread">Wątek</string>
+    <string name="ui_process_detail_time">Start</string>
+    <string name="ui_process_detail_user">Użytk.</string>
+    <string name="ui_process_detail_utime">UTime</string>
+    <string name="ui_process_memoryfree">Wolna:</string>
+    <string name="ui_process_memorytotal">Cała pamięć:</string>
+    <string name="ui_process_sort_cputime">Czas CPU</string>
+    <string name="ui_process_sort_memory">Pamięć</string>
+    <string name="ui_process_sort_name">Nazwa</string>
+    <string name="ui_process_sort_pid">PID</string>
+    <string name="ui_process_sort_status">Status</string>
+    <string name="ui_process_sort_usage">Użycie</string>
+    <string name="ui_process_status_running">Działający</string>
+    <string name="ui_process_status_sleep">Uśpiony</string>
+    <string name="ui_process_status_stop">Stop</string>
+    <string name="ui_process_status_unknown">Nieznany</string>
+    <string name="ui_process_status_waitio">Wait IO</string>
+    <string name="ui_process_status_zombie">Zombie</string>
+    <string name="ui_process_tab">Procesy</string>
+    <string name="ui_processor_core">Rdzeń</string>
+    <string name="ui_processor_cur">Taktowanie</string>
+    <string name="ui_processor_enable">Włączone</string>
+    <string name="ui_processor_enable_msg">Zbieranie informacji..</string>
+    <string name="ui_processor_enable_title">Włącz CPU</string>
+    <string name="ui_processor_freq">Częstotliwość</string>
+    <string name="ui_processor_freq_max_title">Częstotliwość max</string>
+    <string name="ui_processor_freq_min_title">Częstotliwość min</string>
+    <string name="ui_processor_gov">Governor</string>
+    <string name="ui_processor_scal">Skalowanie</string>
+    <string name="ui_processor_status">Status</string>
+    <string name="ui_processor_status_offline">Offline</string>
+    <string name="ui_processor_status_online">Online</string>
+    <string name="ui_shortcut_detail">Kliknij, aby uruchomić OS Monitor..</string>
+    <string name="ui_swap_title">Pamięć swap</string>
+    <string name="ui_system_uptime">Czas pracy</string>
+    <string name="ui_text_cancel">Anuluj</string>
+    <string name="ui_text_default">Domyślnie</string>
+    <string name="ui_text_exportdone">Zrobione!</string>
+    <string name="ui_text_fileexist">Plik istnieje!</string>
+    <string name="ui_text_filename">Nazwa</string>
+    <string name="ui_text_kill">Ubijanie %1$d procesów..</string>
+    <string name="ui_text_notfound">Nie znaleziono!</string>
+    <string name="ui_text_okay">OK</string>
+    <string name="ui_text_refresh">Czekaj..</string>
+    <string name="ui_text_zero">0</string>
+</resources>
